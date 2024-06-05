@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-05T06:56:55.856Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="H_mOsRW1VyODJgNV9FDY" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-05T07:27:49.886Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="w4RuiK7M4qhY1cLGWkIA" version="24.4.13" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="900" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1677" dy="631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -13,7 +13,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8Imo_MOEr16DwkGvXReS-0" value="EMS: &quot;NO_CHARGE&quot;&lt;div&gt;OR&lt;/div&gt;&lt;div&gt;&quot;Battery Current High&quot;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="360" y="40" width="120" height="60" as="geometry" />
+          <mxGeometry x="350" y="40" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8Imo_MOEr16DwkGvXReS-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8Imo_MOEr16DwkGvXReS-1" target="8Imo_MOEr16DwkGvXReS-6">
           <mxGeometry relative="1" as="geometry" />
@@ -29,11 +29,13 @@
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8Imo_MOEr16DwkGvXReS-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8Imo_MOEr16DwkGvXReS-6" target="8Imo_MOEr16DwkGvXReS-14">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="8Imo_MOEr16DwkGvXReS-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8Imo_MOEr16DwkGvXReS-6" target="8Imo_MOEr16DwkGvXReS-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="400" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="8Imo_MOEr16DwkGvXReS-16" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8Imo_MOEr16DwkGvXReS-15">
-          <mxGeometry x="-0.1908" y="1" relative="1" as="geometry">
+        <mxCell id="8Imo_MOEr16DwkGvXReS-20" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8Imo_MOEr16DwkGvXReS-19">
+          <mxGeometry x="-0.0598" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -43,8 +45,177 @@
         <mxCell id="8Imo_MOEr16DwkGvXReS-11" value="ERROR=&quot;Battery no present&quot;&lt;div&gt;PCM_FAIL = true&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="520" y="275" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8Imo_MOEr16DwkGvXReS-14" value="Get RelativeCharge&lt;div&gt;Set&amp;nbsp;previousRelativeCharge=RelativeCharge&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="360" y="435" width="120" height="60" as="geometry" />
+        <mxCell id="8Imo_MOEr16DwkGvXReS-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8Imo_MOEr16DwkGvXReS-17" target="8Imo_MOEr16DwkGvXReS-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-17" value="&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;get RelativeCharge&lt;/span&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;set&amp;nbsp;previousRelativeCharge=RelativeCharge&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;set PCM_FAIL = false&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;set ERROR = &quot;&quot;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;set LoopCounter = 0&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.stored_data;whiteSpace=wrap;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="270" y="400" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8Imo_MOEr16DwkGvXReS-23" target="8Imo_MOEr16DwkGvXReS-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-23" value="Wait 60 seconds" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="530" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8Imo_MOEr16DwkGvXReS-32" target="8Imo_MOEr16DwkGvXReS-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-32" value="LoopCounter++" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="585" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8Imo_MOEr16DwkGvXReS-33" target="8Imo_MOEr16DwkGvXReS-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-33" value="system battery show" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="640" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8Imo_MOEr16DwkGvXReS-35" target="8Imo_MOEr16DwkGvXReS-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="845" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-35" value="&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;get Status&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;get Current&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;get RelativeCharge&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;get SafetyStatus&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.stored_data;whiteSpace=wrap;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="342.5" y="700" width="155" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8Imo_MOEr16DwkGvXReS-39" target="8Imo_MOEr16DwkGvXReS-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-46" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8Imo_MOEr16DwkGvXReS-41">
+          <mxGeometry x="-0.3833" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8Imo_MOEr16DwkGvXReS-39" target="8Imo_MOEr16DwkGvXReS-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-80" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8Imo_MOEr16DwkGvXReS-79">
+          <mxGeometry x="-0.0278" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-39" value="if&lt;div&gt;(Current == 0 mA)&lt;/div&gt;&lt;div&gt;AND&lt;/div&gt;&lt;div&gt;(Status == Ready)&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="800" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8Imo_MOEr16DwkGvXReS-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="1005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-47" value="ERROR = &quot;BATTERY CHARGE ISSUE: HIGH CURRENT&quot;&lt;div&gt;PCM_FAIL = true&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="550" y="975" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8Imo_MOEr16DwkGvXReS-55" target="8Imo_MOEr16DwkGvXReS-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-58" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8Imo_MOEr16DwkGvXReS-57">
+          <mxGeometry x="-0.3" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8Imo_MOEr16DwkGvXReS-55" target="8Imo_MOEr16DwkGvXReS-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-63" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8Imo_MOEr16DwkGvXReS-62">
+          <mxGeometry x="-0.1306" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-55" value="if&lt;div&gt;(SafetyStatus == 0x0000 0008)&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="950" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8Imo_MOEr16DwkGvXReS-56" target="8Imo_MOEr16DwkGvXReS-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-61" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8Imo_MOEr16DwkGvXReS-60">
+          <mxGeometry x="-0.0898" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8Imo_MOEr16DwkGvXReS-56" target="8Imo_MOEr16DwkGvXReS-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="1314.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-67" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8Imo_MOEr16DwkGvXReS-65">
+          <mxGeometry x="-0.4071" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-56" value="if&lt;div&gt;(SafetyStatus == 0x0000 0000)&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="1100" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8Imo_MOEr16DwkGvXReS-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="665" y="1270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-59" value="ERROR = &quot;BATTERY CHARGE ISSUE: NOT CHARGING&quot;&lt;div&gt;PCM_FAIL = true&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="550" y="1125" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8Imo_MOEr16DwkGvXReS-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="1390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-66" value="ERROR = &quot;BATTERY CHARGE ISSUE: OTHER&quot;&lt;div&gt;PCM_FAIL = true&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="305" y="1250" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-68" value="if&lt;div&gt;(PCM_FAIL == false)&lt;/div&gt;&lt;div&gt;OR&lt;/div&gt;&lt;div&gt;(RelativeCharge == 75%)&lt;/div&gt;&lt;div&gt;OR&lt;/div&gt;&lt;div&gt;(LoopCounter == 10)&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="90" y="1520" width="170" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8Imo_MOEr16DwkGvXReS-78" target="8Imo_MOEr16DwkGvXReS-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-83" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8Imo_MOEr16DwkGvXReS-82">
+          <mxGeometry x="-0.1028" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-78" value="if&lt;div&gt;(Current != 0 mA)&lt;/div&gt;&lt;div&gt;AND&lt;/div&gt;&lt;div&gt;(Status == Charging)&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="800" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8Imo_MOEr16DwkGvXReS-81" target="8Imo_MOEr16DwkGvXReS-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-81" value="if&lt;div&gt;(RelativeCharge &amp;gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;previousRelativeCharge)?&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-40" y="800" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8Imo_MOEr16DwkGvXReS-84" target="8Imo_MOEr16DwkGvXReS-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-84" value="Count = 0" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-40" y="950" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8Imo_MOEr16DwkGvXReS-86" target="8Imo_MOEr16DwkGvXReS-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-86" value="Wait 30 seconds" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-40" y="1010" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8Imo_MOEr16DwkGvXReS-88" target="8Imo_MOEr16DwkGvXReS-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-88" value="Count++" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-40" y="1070" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8Imo_MOEr16DwkGvXReS-90" target="8Imo_MOEr16DwkGvXReS-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-90" value="system battery show" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-40" y="1120" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8Imo_MOEr16DwkGvXReS-92" target="8Imo_MOEr16DwkGvXReS-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-92" value="&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;get RelativeCharge&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.stored_data;whiteSpace=wrap;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-60" y="1185" width="160" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-93" value="&lt;div&gt;if&lt;/div&gt;&lt;div&gt;(Count == 5)&lt;br&gt;OR&lt;/div&gt;&lt;div&gt;(Relative &amp;gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: left; background-color: initial;&quot;&gt;previousRelativeCharge&lt;/span&gt;)&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-40" y="1270" width="120" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
