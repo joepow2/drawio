@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-05T07:27:49.886Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="w4RuiK7M4qhY1cLGWkIA" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-05T08:19:41.150Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="byXFKxu9vE0Q_FlaK9Is" version="24.4.13" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1677" dy="631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1783" dy="710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -181,6 +181,11 @@
         <mxCell id="8Imo_MOEr16DwkGvXReS-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8Imo_MOEr16DwkGvXReS-81" target="8Imo_MOEr16DwkGvXReS-84">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-113" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8Imo_MOEr16DwkGvXReS-85">
+          <mxGeometry x="-0.3583" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="8Imo_MOEr16DwkGvXReS-81" value="if&lt;div&gt;(RelativeCharge &amp;gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;previousRelativeCharge)?&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-40" y="800" width="120" height="110" as="geometry" />
         </mxCell>
@@ -194,7 +199,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8Imo_MOEr16DwkGvXReS-86" value="Wait 30 seconds" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-40" y="1010" width="120" height="30" as="geometry" />
+          <mxGeometry x="-40" y="1005" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8Imo_MOEr16DwkGvXReS-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8Imo_MOEr16DwkGvXReS-88" target="8Imo_MOEr16DwkGvXReS-90">
           <mxGeometry relative="1" as="geometry" />
@@ -214,8 +219,58 @@
         <mxCell id="8Imo_MOEr16DwkGvXReS-92" value="&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;get RelativeCharge&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.stored_data;whiteSpace=wrap;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-60" y="1185" width="160" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="8Imo_MOEr16DwkGvXReS-93" value="&lt;div&gt;if&lt;/div&gt;&lt;div&gt;(Count == 5)&lt;br&gt;OR&lt;/div&gt;&lt;div&gt;(Relative &amp;gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: left; background-color: initial;&quot;&gt;previousRelativeCharge&lt;/span&gt;)&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="8Imo_MOEr16DwkGvXReS-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8Imo_MOEr16DwkGvXReS-93" target="8Imo_MOEr16DwkGvXReS-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-100" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8Imo_MOEr16DwkGvXReS-99">
+          <mxGeometry x="-0.2694" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-93" value="&lt;div&gt;if&lt;/div&gt;&lt;div&gt;(Count == 5)&lt;br&gt;OR&lt;/div&gt;&lt;div&gt;(RelativeCharge &amp;gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: left; background-color: initial;&quot;&gt;previousRelativeCharge&lt;/span&gt;)&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-40" y="1270" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8Imo_MOEr16DwkGvXReS-98" target="8Imo_MOEr16DwkGvXReS-103">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-180" y="1485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-104" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8Imo_MOEr16DwkGvXReS-102">
+          <mxGeometry x="-0.137" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8Imo_MOEr16DwkGvXReS-98" target="8Imo_MOEr16DwkGvXReS-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-107" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8Imo_MOEr16DwkGvXReS-106">
+          <mxGeometry x="-0.2085" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-98" value="&lt;div&gt;if&lt;/div&gt;&lt;div&gt;(RelativeCharge &amp;gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: left; background-color: initial;&quot;&gt;previousRelativeCharge&lt;/span&gt;)&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-240" y="1270" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-103" value="ERROR = &quot;BATTERY CHARGE ISSUE: NOT CHARGING&quot;&lt;div&gt;PCM_FAIL = true&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-295" y="1430" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-105" value="&lt;span style=&quot;text-align: left;&quot;&gt;previousRelativeCharge =&amp;nbsp;&lt;/span&gt;RelativeCharge" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-255" y="1140" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-111" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="1322.5" as="sourcePoint" />
+            <mxPoint x="80" y="1017.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="1322.5" />
+              <mxPoint x="210" y="1017.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Imo_MOEr16DwkGvXReS-112" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8Imo_MOEr16DwkGvXReS-111">
+          <mxGeometry x="-0.7788" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
